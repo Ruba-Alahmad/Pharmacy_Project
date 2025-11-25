@@ -1,0 +1,33 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  background: linear-gradient(135deg, #304B72, #5EAEE4);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input:focus, select:focus {
+  box-shadow: 0 0 10px rgba(94, 174, 228, 0.5);
+  border-color: #5EAEE4;
+}
+
+.btn-primary {
+  background-color: #304B72;
+  border-color: #304B72;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5EAEE4;
+  border-color: #5EAEE4;
+}
+
+.shadow {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+
+
+
