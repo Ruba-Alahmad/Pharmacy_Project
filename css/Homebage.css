@@ -1,0 +1,84 @@
+.custom-navbar{
+  background-color: #1c5ebb!important;
+}
+.container a{
+    font-family: Poppins;
+     color: #1b4d93; 
+}
+header{
+    background-image: url("../images/Homebage.png") ;
+    background-size: cover;
+    background-position-y: -210px;
+}
+form{
+    display: flex;
+    column-gap: 30px;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+.welcome-text span {
+  opacity: 0;
+  display: inline-block;
+  transform: translateY(12px);
+  animation: fadeUp 0.5s forwards ease;
+}
+
+.welcome-text span:nth-child(1) { animation-delay: 0.2s; }
+.welcome-text span:nth-child(2) { animation-delay: 0.4s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.welcome-text-1 span {
+  opacity: 0;
+  display: inline-block;
+  transform: translateY(12px);
+  animation: fadeUp 0.5s forwards ease;
+}
+
+.welcome-text-1 span:nth-child(1) { animation-delay:0.6s; }
+.welcome-text-1 span:nth-child(2) { animation-delay: 0.8s; }
+.welcome-text-1 span:nth-child(3) { animation-delay: 1s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+h1.animated-title,h2.animated-title {
+  color: #1c5ebb;                   /* لون النص أبيض */
+  -webkit-text-stroke: 1px #000; /* حدود الخط باللون الأسود */
+  font-weight: bold;              /* نص عريض ليظهر الحدود بشكل واضح */
+}
+h2.animated-title{
+    color:#1c5ebb;                   /* لون النص أبيض */
+  -webkit-text-stroke: 1px #000; /* حدود الخط باللون الأسود */
+  font-weight: bold; 
+}
+button{
+    color: #1c5ebb  ;
+}
+.btn-outline-light {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+
+.btn-outline-light:hover {
+    background-color: #1c5ebb !important;
+    color: #fff !important;
+    border-color: #1c5ebb !important;
+}
+
+
+
+
+

@@ -1,0 +1,44 @@
+body{
+    background-color:#f5f7fa;
+}
+
+.heading h1{
+color:gray;
+font-family: Poppins;
+}
+.heading h2{
+    font-family: Poppins;
+}
+.heading{
+    padding-top: 30px;
+}
+.section1 {
+    display: flex;
+    column-gap: 30px;
+    padding-top: 25PX;
+
+}
+.section2 {
+    display: flex;
+    column-gap: 30px;
+     padding-top: 30PX;
+}
+.section3 {
+    display: flex;
+    column-gap: 30px;
+     padding-top: 30PX;
+}
+
+.section4 {
+    width:55%;
+    padding-top: 60PX;
+    display: flex;
+}
+.section4 .btn{
+    padding: 20px;
+}
+input{
+background-color:#e7eef5;
+width:300px;
+height: 60px;
+}

@@ -1,0 +1,97 @@
+body {
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            background: #f5f6fa;
+        }
+
+        .sidebar {
+            width: 260px;
+            background: #233044;
+            color: #fff;
+            overflow-y: auto;
+            padding-top: 20px;
+            transition: width 0.3s;
+            position: relative;
+        }
+
+        .sidebar .title {
+            font-size: 18px;
+            font-weight: bold;
+            padding-left: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .sidebar a {
+            color: #d4d7dc;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            padding: 12px 20px;
+            font-size: 15px;
+            transition: all 0.3s;
+        }
+
+        .sidebar a:hover {
+            background: #1c2633;
+        }
+
+        .submenu {
+            display: none;
+            background: #2d3b50;
+        }
+
+        .submenu a {
+            padding-left: 40px;
+        }
+
+        .arrow {
+            margin-left: auto;
+            transition: transform 0.3s;
+        }
+
+        .rotated {
+            transform: rotate(180deg);
+        }
+
+        .content {
+            flex: 1;
+            overflow: hidden;
+            position: relative;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            opacity: 1;
+            transition: opacity 0.4s ease-in-out;
+        }
+
+        iframe.fade-out {
+            opacity: 0;
+        }
+
+        /* Sidebar collapsed */
+        .sidebar.collapsed {
+            width: 60px !important;
+        }
+
+        .sidebar.collapsed .sidebar-text {
+            display: none;
+        }
+
+        .sidebar.collapsed .submenu {
+            display: none !important;
+        }
+
+        .sidebar.collapsed .arrow {
+            display: none !important;
+        }
+
+        .sidebar.collapsed a i {
+            margin-right: 0 !important;
+        }
